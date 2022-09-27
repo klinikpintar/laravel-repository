@@ -10,7 +10,7 @@ interface Repository
     /**
      * get model
      */
-    public function getModel(): ?Model;
+    public function getModel();
 
     /**
      * set query builder

@@ -42,7 +42,7 @@ abstract class Repository implements
     /**
      * get model for execution
      */
-    public function getModel(): Model
+    public function getModel()
     {
         return $this->model;
     }
