@@ -1,19 +1,18 @@
-# Laravel-Repository
-Crud wrapp for laravel application
-### ToC
-- [Laravel-Repository](#laravel-repository)
-    - [ToC](#toc)
-    - [Installation](#installation)
-    - [Create Basic Repository](#create-basic-repository)
-  - [Basic Usage](#basic-usage)
-    - [Listing Modifier](#listing-modifier)
-        - [Pagination](#pagination)
-          - [Required Pagination](#required-pagination)
-          - [Optional Pagination](#optional-pagination)
-        - [Filtering](#filtering)
-        - [Sorting](#sorting)
-        - [Relationship Loading](#relationship-loading)
-    - [Events](#events)
+Laravel-Repository is CRUD wrapper for laravel application
+
+### Table of Contents
+- [Table of Contents](#table-of-contents)
+- [Installation](#installation)
+- [Create Basic Repository](#create-basic-repository)
+- [Basic Usage](#basic-usage)
+- [Listing Modifier](#listing-modifier)
+    - [Pagination](#pagination)
+      - [Required Pagination](#required-pagination)
+      - [Optional Pagination](#optional-pagination)
+    - [Filtering](#filtering)
+    - [Sorting](#sorting)
+    - [Relationship Loading](#relationship-loading)
+- [Events](#events)
 
 ### Installation
 ```
@@ -45,7 +44,7 @@ class UserRepository extends RepositorySoftDelete
     ];
 }
 ```
-## Basic Usage
+### Basic Usage
 ```php
 Create user controller
 <?php
